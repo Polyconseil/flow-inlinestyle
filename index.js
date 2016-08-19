@@ -1,4 +1,4 @@
-declare type InlineStyle = {
+export type InlineStyle = {
   alignContent?: string,
   alignItems?: string,
   alignSelf?: string,
