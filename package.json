@@ -1,0 +1,25 @@
+{
+  "name": "flow-inlinestyle",
+  "version": "1.0.0",
+  "description": "Flow style that describes all css properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polyconseil/flow-inlinestyle.git"
+  },
+  "keywords": [
+    "flow",
+    "types",
+    "css",
+    "inline"
+  ],
+  "author": "koolkat",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Polyconseil/flow-inlinestyle/issues"
+  },
+  "homepage": "https://github.com/Polyconseil/flow-inlinestyle#readme"
+}
