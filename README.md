@@ -7,13 +7,13 @@ To statically check your style objects
 First:
 `npm install --save-dev flow-inlinestyle`
 
-And then in you .flowconfig:
+Add the type in your .flowconfig file :
 ```
 [libs]
-node_modules/flow-inlinestyle/index.j
+node_modules/flow-inlinestyle/index.js
 ```
 
-And the in your code:
+Then, to use the type in your code:
 ```javascript
 const STYLE_FOO: InlineStyle = {
   marginRight: 10,
