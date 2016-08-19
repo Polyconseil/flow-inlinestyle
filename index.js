@@ -285,4 +285,7 @@ declare type InlineStyle = {
   wordWrap?: string,
   writingMode?: string,
   zIndex?: string,
+
+  // Hack of the century : https://github.com/facebook/flow/issues/1280
+  [key: string]: void
 };

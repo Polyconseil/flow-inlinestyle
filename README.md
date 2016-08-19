@@ -10,7 +10,7 @@ First:
 And then in you .flowconfig:
 ```
 [libs]
-node_modules/flow-inlinestyle/
+node_modules/flow-inlinestyle/index.j
 ```
 
 And the in your code:
