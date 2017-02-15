@@ -286,6 +286,7 @@ declare type InlineStyle = {
   transitionProperty?: string,
   transitionTimingFunction?: string,
   unicodeBidi?: string,
+  userSelect?: string,
   verticalAlign?: string | number,
   visibility?: string,
   whiteSpace?: string,
