@@ -135,7 +135,7 @@ declare type InlineStyle = {
   fontVariantLigatures?: string,
   fontVariantNumeric?: string,
   fontVariantPosition?: string,
-  fontWeight?: string,
+  fontWeight?: string | number,
   grid?: string,
   gridArea?: string,
   gridAutoColumns?: string,
