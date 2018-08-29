@@ -1,4 +1,4 @@
-declare type InlineStyle = {
+declare type InlineStyle = {|
   alignContent?: string,
   alignItems?: string,
   alignSelf?: string,
@@ -299,7 +299,4 @@ declare type InlineStyle = {
   writingMode?: string,
   zIndex?: string | number,
   zoom?: string | number,
-
-  // Hack of the century : https://github.com/facebook/flow/issues/1280
-  [key: string]: void
-};
+|};
